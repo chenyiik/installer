@@ -26,7 +26,7 @@ sudo ln -fs /usr/local/bin/frpc-$version /usr/bin/frpc
 
 cd ../conf
 conf_dir=/etc/frp
-mkdir -p $conf_dir
+sudo mkdir -p $conf_dir
 sudo cp -n frps.ini $conf_dir
 sudo cp -n frpc.ini $conf_dir
 sudo cp -n frps_full.ini $conf_dir
